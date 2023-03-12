@@ -18,19 +18,19 @@ The project is divided into several stages: data preprocessing, feature selectio
 
 The `preprocess_data.py` script loads the Electric Vehicle Population Data CSV file, drops unnecessary columns, drops rows with missing values, and converts categorical variables to numerical using one-hot encoding. The preprocessed data is saved to `preprocessed_data.csv`. To run the script, execute:
 
-python preprocess_data.py
+`python preprocess_data.py`
 
 ### Feature Selection
 
 The `feature_selection.py` script loads the preprocessed data, drops unnecessary columns, drops rows with missing values, separates numerical and categorical columns, standardizes numerical features, and one-hot encodes categorical features. The selected features are saved to `selected_features.csv`. To run the script, execute:
 
-python feature_selection.py
+`python feature_selection.py`
 
 ### Model Training
 
 The `train_model.py` script loads the preprocessed and selected features data, splits the data into training and testing sets, defines several regression models to test, and performs hyperparameter tuning using grid search. The best model is selected based on the mean squared error score on the testing set, and is saved to `model.joblib`. To run the script, execute:
 
-python train_model.py
+`python train_model.py`
 
 ### Model Deployment
 
