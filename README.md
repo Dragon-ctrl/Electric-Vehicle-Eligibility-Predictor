@@ -14,6 +14,8 @@ The project is divided into several stages: data preprocessing, feature selectio
 
 ## Usage
 
+The dataset used in this project can be downloaded from [Data.gov](https://catalog.data.gov/dataset/electric-vehicle-population-data).
+
 ### Data Preprocessing
 
 The `preprocess_data.py` script loads the Electric Vehicle Population Data CSV file, drops unnecessary columns, drops rows with missing values, and converts categorical variables to numerical using one-hot encoding. The preprocessed data is saved to `preprocessed_data.csv`. To run the script, execute:
