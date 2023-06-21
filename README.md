@@ -6,7 +6,7 @@ The project is divided into several stages: data preprocessing, feature selectio
 
 ## Installation
 
-1. Clone this repository: `git clone https://github.com/your-username/ev-eligibility-prediction.git`
+1. Clone this repository: `git clone https://github.com/ElderBrainTV/ev-eligibility-prediction.git`
 2. Change into the project directory: `cd ev-eligibility-prediction`
 3. Create a virtual environment: `python3 -m venv env`
 4. Activate the virtual environment: `source env/bin/activate`
